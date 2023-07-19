@@ -14,7 +14,7 @@ body {
     --secondary-color: #0B0223;
 }
 
-.high-light-color {
+.highlight-color {
     color: #f948b2;
 }
 
@@ -78,7 +78,7 @@ li a {
 
 
 /* nav-follow button  */
-.follow-btn {
+.follow-us-on-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,13 +128,13 @@ li a {
     height: 700px;
 }
 
-.header-section-normal-title {
+.header-section-title {
     color: #0B0223;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.header-section-high-light-title {
+.header-section-highlight-title {
     color: #f948b2;
     font-size: 5.9375rem;
     font-weight: 800;
@@ -176,7 +176,6 @@ li a {
 .fa-user-group {
     margin-right: 1.125rem;
 }
-
 
 .header-btn {
     margin-top: 2.5625rem;
@@ -313,25 +312,162 @@ li a {
 .card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1.5rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    grid-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 4rem;
 }
 
 
+/* Play Instantly section style */
+
+.play-instantly-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 15rem;
+}
 
 
 
+.play-instantly-section-content {
+    margin-left: 8rem;
+    margin-top: 16rem;
+    width: 353px;
+}
 
 
+.play-instantly-section-title {
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.play-instantly-section-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+
+.play-instantly-image #instant-img {
+    margin-left: 160px;
+}
 
 
+.play-instantly-small-image {
+    width: 318.5px;
+    height: 365.083px;
+    background: url(), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: relative;
+    bottom: 245px;
+
+}
+/* game choice button style */
+.game-choice-button{
+    
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.game-choice-contant{
+    padding: 6rem auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-right: 250px;
+    margin-left: 240px;
+  
+}
+
+.game-choice-card{display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 234px;height: 81px;
+    border: 2px solid #0B0223;
+    border-radius: 19px;
+    font-weight:600;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 26px;
+    margin-bottom: 4rem;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+
+.game-choice-card img{
+    width: 60px;
+    height: 60px;
+    margin-right: 0.7rem;
+}
+/* footer section css code is here  */
+footer {
+    background-color: #0B0223;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 5rem;
+}
+
+.footer-logo {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
+.footer-contact,
+.social-icon,
+.footer-policy {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+ul>li {
+    list-style: none;
+}
 
 
+.social-icon {
+    margin-left: 34rem;
+    margin-right: 34rem;
+    gap: 1rem;
+}
 
+
+.social-icon .fa-brands {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+.footer-policy {
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 32rem;
+    margin-right: 32rem;
+}
+
+
+.footer {
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+
+
+}
 
 
 /* device responsive  */
@@ -510,6 +646,7 @@ li a {
 
     .card-container img {
         width: 100%;
+        margin-left: 3rem;
     }
 
 
@@ -669,9 +806,37 @@ li a {
 
 
 
+    /* card section style  */
 
 
+    /* online-game-section */
+
+    .online-game-section {
+        /* margin-left: 5.5rem;
+        margin-right: 5.5rem; */
+
+    }
+
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+    }
 
 
+    .card-container {
+        width: 326px;
+    }
 
+    .card-container img {
+        width: 100%;
+    }
+
+    .card-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+    }
 }
